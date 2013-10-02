@@ -2,7 +2,7 @@
 
 ### assumes go is installed and $GOROOT is already set
 
-GOPATH=`pwd`/go
+export GOPATH=`pwd`/go
 mkdir go
 rm docker
 
